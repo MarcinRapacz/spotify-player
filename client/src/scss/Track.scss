@@ -1,0 +1,27 @@
+.Track {
+  margin: 0 0 50px 0;
+  flex-basis: 320px;
+  background-color: rgba($color: #ffffff, $alpha: 0.1);
+  box-shadow: 5px 5px 20px 0px rgba(#ffffff, 0.1);
+  transition: 0.3s;
+
+  &--active {
+    background-color: rgba($color: #ffffff, $alpha: 0.3);
+    box-shadow: 5px 5px 20px 0px rgba(#ffffff, 0.02);
+  }
+
+  &__image {
+    font-size: 0;
+    width: 100%;
+  }
+
+  &__albumName {
+    margin: 16px 0 0 0;
+    color: rgba($color: #ffffff, $alpha: 0.8);
+  }
+
+  &__artistName {
+    margin: 8px 0 24px 0;
+    color: rgba($color: #ffffff, $alpha: 0.6);
+  }
+}

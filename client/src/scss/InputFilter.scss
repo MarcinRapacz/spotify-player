@@ -1,0 +1,27 @@
+.InputFilter {
+  box-sizing: border-box;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translate(-50%, 45vh);
+  width: 200px;
+  padding: 8px 16px;
+  transition: 0.3s;
+  border-radius: 10px;
+
+  &,
+  &::placeholder {
+    font-family: Poppins;
+  }
+
+  &:focus,
+  &--active {
+    outline: none;
+    padding: 12px 16px;
+    border-radius: 10px 10px 0px 0px;
+    width: 95vw;
+    min-width: 200px;
+    max-width: 1440px;
+    transform: translate(-50%, 0);
+  }
+}

@@ -1,0 +1,9 @@
+.TrackList {
+  margin: 80px auto;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}

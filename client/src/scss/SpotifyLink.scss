@@ -1,0 +1,28 @@
+.SpotifyLink {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &__link {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: rgba($color: #ffffff, $alpha: 0.4);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba($color: #ffffff, $alpha: 0.8);
+    border: 3px solid rgba($color: #ffffff, $alpha: 0.8);
+    box-shadow: 1px 1px 2px 2px rgba(#ffffff, 0.1);
+    transition: 0.3s;
+
+    &:hover {
+      background-color: rgba($color: #ffffff, $alpha: 0.1);
+      box-shadow: none;
+    }
+  }
+
+  &__icon {
+    margin: 0 0 0 10px;
+  }
+}
